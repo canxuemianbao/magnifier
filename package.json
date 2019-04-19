@@ -1,0 +1,19 @@
+{
+  "name": "magnifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w --config example/basic/webpack.config.js"
+  },
+  "author": "huke",
+  "license": "MIT",
+  "devDependencies": {
+    "file-loader": "^2.0.0",
+    "image-webpack-loader": "^4.6.0",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
